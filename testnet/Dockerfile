@@ -11,4 +11,4 @@ WORKDIR lisk-0.1.4-Linux-i686
 RUN echo "export PATH=$(pwd)/bin:$PATH" >> ~/.bash_profile
 
 EXPOSE 7000
-CMD ["bash", "lisk.sh", "start"]
+CMD ["node", "app.js"]
